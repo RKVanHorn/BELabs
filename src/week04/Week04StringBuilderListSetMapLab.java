@@ -210,7 +210,7 @@ public class Week04StringBuilderListSetMapLab {
 				divBy3.add(i);
 			} if (i%5==0) {
 				divBy5.add(i);
-			} else {
+			} else if(i%2 !=0 && i%3 !=0 && i%5 !=0){
 				allRest.add(i);
 			}
 		} 
